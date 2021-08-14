@@ -1,6 +1,7 @@
 from tkinter import *
 root=Tk()
 def send():
+    # Mein means user in hindi
     send="mein:"+a.get()
     text.insert(END,"\n"+send)
     #Nmaste means hello in hindi
