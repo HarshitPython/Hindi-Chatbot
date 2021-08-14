@@ -6,6 +6,7 @@ def send():
     text.insert(END,"\n"+send)
     #Nmaste means hello in hindi
     if (a.get()=='Namaste'):
+        # Yantra means computer or machine in hindi
         text.insert(END,"\n" + "yantra:Namaste")
     elif(a.get()=='Aap kaise ho?'):
         text.insert(END,"\n" + "yantra:Main theek hoon. Aap kaise ho?")
