@@ -3,6 +3,7 @@ root=Tk()
 def send():
     send="mein:"+a.get()
     text.insert(END,"\n"+send)
+    #Nmaste means hello in hindi
     if (a.get()=='Namaste'):
         text.insert(END,"\n" + "yantra:Namaste")
     elif(a.get()=='Aap kaise ho?'):
